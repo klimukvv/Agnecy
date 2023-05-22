@@ -95,6 +95,11 @@ body {
       color: #FFFFFF;
       padding: 14.3px 20.69px 16.61px 62.9px;
     }
+    .button:hover{
+        background:#ffffff ;
+        color: #FF2D2D;
+        border: #FF2D2D solid 2px; 
+    }
     .top_video {
         width: 550px;
        height: 356px;
@@ -144,6 +149,11 @@ body {
     padding: 15.39px 18.63px 15.61px 59.95px;
     margin-bottom: 230px;      
     }
+    .service-button:hover{
+        background:#FF2D2D ;
+        color: #ffffff;
+        border: #FF2D2D solid 2px; 
+    }
     .servis-info {
         display: flex;
         flex-grow: 1;
@@ -154,14 +164,49 @@ body {
     .servis_iteme {
         margin-bottom: 113px;
         margin-top: 107.47px;
-    }    
-    .servis-img {
+    }
+
+    .servis-img_gear {
         padding-bottom: 32.25px;
         transition: transform 1s;
     }
-    .servis_iteme:hover .servis-img{
-        transform: rotate(360deg);
+    .servis_iteme:hover .servis-img_gear{transform: rotate(360deg);
+        transform-origin: 5px 5px;
+    }
+    .servis_iteme-grid:hover .servis-img_gear{transform: rotate(360deg);
+        transform-origin: 5px 5px;
+    }
+
+    .servis-img_pencil{
+        padding-bottom: 32.25px;
+        transition: transform 1s;
+    }
+    .servis_iteme:hover .servis-img_pencil{transform: translate(40px);
+       
+    }
+    .servis_iteme-grid:hover .servis-img_pencil{transform: translate(40px);
+       
+    }
+
+    .servis-img_crystal {
+        padding-bottom: 32.25px;
+        transition: transform 1s;
+    }
+    .servis_iteme:hover .servis-img_crystal{transform: scale(1.5);
         
+    }
+    .servis_iteme-grid:hover .servis-img_crystal{transform: scale(1.5);
+        
+    }
+    .servis-img_truck {
+        padding-bottom: 32.25px;
+        transition: transform 1s;
+    }
+    .servis_iteme:hover .servis-img_truck{transform: translate(40px);
+       
+    }
+    .servis_iteme-grid:hover .servis-img_truck{transform: translate(40px);
+       
     }
     .servis-heading {
  font-family: 'Open Sans';
